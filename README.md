@@ -1,23 +1,15 @@
-# ejs-no2
-98.10.30 include syntax | from tinyProjects
+# ejs-no3
+98.10.30  loop and variable | from tinyProjects
 
-[This is final video!](https://www.aparat.com/v/ezR9a)
+[This is final video!](...)
 
-## packages
+## embed js variable in html tag
 ```
-yarn add ejs express
+<h2>Hello Dadashi!! <%= i %></h2>
 ```
-## app.js (app.set)
+## embed js loop in html tag
 ```
-app.set('view engine','ejs')
-app.set('views','app/views')
-```
-## (module.exports) VS (module.exports > ejs)
-```
-res.send('<h2>Hello Dadashi!!</h2>')
-res.render('index1')
-```
-## module.exports > ejs > include
-```
-<%- include('head.ejs') %>
+<% for(i=0; i<=2; i++){ %>
+<h2> Hello Dadashi!! </h2>
+<% } %>
 ```
