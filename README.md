@@ -1,15 +1,15 @@
 # ejs-no3
-98.10.30  loop and variable | from tinyProjects
+98.10.30  ejs syntax | from tinyProjects
 
-[This is final video!](...)
+[This is final video!](https://www.aparat.com/v/CK1cJ)
 
-## embed js variable in html tag
+## Overview
+embed js in html!
 ```
-<h2>Hello Dadashi!! <%= i %></h2>
+<%= i %>  <%= x.summary %>
+<%- x.description %>
+<% for(... %>  
 ```
-## embed js loop in html tag
-```
-<% for(i=0; i<=2; i++){ %>
-<h2> Hello Dadashi!! </h2>
-<% } %>
-```
+i and x.summary are variables.
+
+x.description contains html tag.
